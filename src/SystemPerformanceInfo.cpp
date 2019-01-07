@@ -83,7 +83,7 @@ void cSystemPerformanceInfo::ResumeTiming(t_time CurrTime)
 }
 
 // 히스토리 사이즈 셋팅
-bool cSystemPerformanceInfo::SetHistorySize(uint32_t nSize)
+bool cSystemPerformanceInfo::SetHistorySize(size_t nSize)
 {
 	m_FrameTimeHistory.resize(nSize);
 	m_NestedFrameTimeHistory.resize(nSize);
