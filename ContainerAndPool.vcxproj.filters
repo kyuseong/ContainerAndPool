@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f1c19abe-abcd-4013-a181-3006935ef95c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Allocator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectPool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Profiler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PtrList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemPerformanceInfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemPerformanceMgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FixedContainer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemPerformanceInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemPerformanceMgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
